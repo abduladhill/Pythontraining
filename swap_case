@@ -1,0 +1,11 @@
+inputString = input("Enter a string: ")
+outputString = ''
+for i in inputString:
+    if i.isupper():
+       o = i.lower()
+    elif i.islower():
+        o = i.upper()
+    else:
+        pass
+    outputString += o
+print(outputString)
